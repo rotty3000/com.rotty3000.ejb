@@ -1,0 +1,3 @@
+-runee: JavaSE-1.8
+-runfw: org.eclipse.osgi
+-runrequires: osgi.identity;filter:='(osgi.identity=com.rotty3000.ejbclient)'

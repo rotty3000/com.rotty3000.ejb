@@ -1,0 +1,7 @@
+-buildpath: \
+	org.osgi.service.http.whiteboard,\
+	com.rotty3000.ejb;version=latest,\
+	org.osgi.service.component.annotations,\
+	org.apache.openejb.javaee-api
+-runbundles: org.apache.felix.log;version='[1.0.1,1.0.2)'
+Bundle-Version: 1.0.0

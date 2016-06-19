@@ -1,0 +1,5 @@
+Bundle-Version: 1.0.0
+Export-EJB:
+Export-Package: com.rotty3000.ejb
+
+-buildpath: org.apache.openejb.javaee-api

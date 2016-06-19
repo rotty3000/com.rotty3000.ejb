@@ -1,0 +1,18 @@
+#
+# This file is left open for you to define your macros
+#
+
+-buildrepo: Local
+
+-plugin.4.Central:\
+	aQute.bnd.repository.maven.provider.MavenBndRepository; \
+		releaseUrl			=	https://repo.maven.apache.org/maven2/; \
+		name				=	Central
+
+-plugin.6.Local:\
+    aQute.bnd.repository.maven.provider.MavenBndRepository; \
+		name				=	Local
+
+-pom:\
+	groupid	=	com.rotty3000,\
+	version =	${versionmask;===;${@version}}-SNAPSHOT
