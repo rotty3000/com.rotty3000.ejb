@@ -4,7 +4,8 @@
 	osgi.identity;filter:='(osgi.identity=com.rotty3000.ejbclient)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.runtime)',\
-	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)'
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.aries.ejb.openejb.extender)'
 -runbundles: \
 	com.rotty3000.ejb;version=snapshot,\
 	com.rotty3000.ejbclient;version=snapshot,\
