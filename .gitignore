@@ -1,4 +1,4 @@
 .gradle/
-/generated/
+*/generated/
 enroute.zip
 .metadata
